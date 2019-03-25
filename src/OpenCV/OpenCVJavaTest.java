@@ -1,4 +1,4 @@
-package Imgcodecs;
+package OpenCV;
 
 import org.opencv.core.*;
 import org.opencv.imgcodecs.Imgcodecs;
@@ -25,9 +25,11 @@ public class OpenCVJavaTest{
             System.out.println("图片读入出错");
         else{
             //显示图片
-//            namedWindow("显示图片",WINDOW_NORMAL);
-            imshow("显示图片",srcImage);
+            namedWindow("显示图片",WINDOW_NORMAL);
+            imshow("显示图片",srcImage);//参数1：显示图片的窗口名称;参数2：储存图片数据的对象。
+            //等待按下函数：参数如果写负数或者0。当显示图片后，按下任意键后程序退出。如果参数写为3000就是3秒后程序自动退出。
             waitKey(0);
+
             //保存图片(文件的格式由 filename 参数指定的文件扩展名确定)
             if(Imgcodecs.imwrite("C:\\Users\\Administrator\\Desktop\\OCRResult\\test.bmp", srcImage))
                 System.out.println("图片保存成功");

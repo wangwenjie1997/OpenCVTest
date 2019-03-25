@@ -1,3 +1,5 @@
+package Imgcodecs;
+
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.imgcodecs.Imgcodecs;
@@ -13,7 +15,7 @@ import org.opencv.imgproc.Imgproc;
 
 //灰度化
 //让像素点矩阵中的每一个像素点都满足下面的关系：R=G=B（就是红色变量的值，绿色变量的值，和蓝色变量的值，这三个值相等，“=”的意思不是程序语言中的赋值，是数学中的相等），此时的这个值叫做灰度值
-public class Grayscale {
+public class CvColor {
 
     // 载入dll（必须先加载）,不写报java.lang.UnsatisfiedLinkError
     static{ System.loadLibrary(Core.NATIVE_LIBRARY_NAME); }

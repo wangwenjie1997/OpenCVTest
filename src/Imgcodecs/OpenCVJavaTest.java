@@ -1,8 +1,15 @@
+package Imgcodecs;
+
 import org.opencv.core.*;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
 import static org.opencv.highgui.HighGui.*;
+
+/**
+ * 参考链接:
+ * https://blog.csdn.net/wangwenjie1997/article/details/88778155
+ */
 
 //OpenCV图像读入，显示，输出
 public class OpenCVJavaTest{

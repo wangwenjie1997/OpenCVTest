@@ -13,6 +13,7 @@ import org.opencv.imgproc.Imgproc;
  * https://blog.csdn.net/m1109048058/article/details/76640714
  */
 //腐蚀
+//使二值图像中“1”的个数减少，因为“1”在图像中表示白色部分，“0”为黑色部分，“1”的个数减少后，在图像中就表现为黑色部分增加了
 public class Erode {
 
     // 载入dll（必须先加载）,不写报java.lang.UnsatisfiedLinkError

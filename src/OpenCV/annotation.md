@@ -14,7 +14,11 @@ https://docs.opencv.org/3.4.1/index.html
         - 2.1.3 MedianBlur 中值滤波 
     - 2.2 ErodingAndDilating 腐蚀与膨胀 
         - 2.2.1 Erode 腐蚀 
-        - 2.2.2 Dilate 膨胀
+        - 2.2.2 Dilate 膨胀 
+    - 2.3 Resize 图像尺寸调整
+        - 2.3.1 Resize 图像尺寸调整
+        - 2.3.2 PyrDown 高斯图像金字塔-缩小过程
+        - 2.3.3 PyrUp 高斯图像金字塔-扩大过程
 
 
 

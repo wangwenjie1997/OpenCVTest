@@ -1,4 +1,4 @@
-package OpenCV;
+package OpenCV.imgproc.Threshold;
 
 import org.opencv.core.Core;
 import org.opencv.core.Mat;

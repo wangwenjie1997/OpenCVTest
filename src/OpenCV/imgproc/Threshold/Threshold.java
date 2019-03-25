@@ -1,4 +1,4 @@
-package OpenCV;
+package OpenCV.imgproc.Threshold;
 
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
@@ -15,6 +15,7 @@ import static org.opencv.highgui.HighGui.waitKey;
  * 参考链接：
  * https://blog.csdn.net/m1109048058/article/details/76241056
  * https://blog.csdn.net/qq_37385726/article/details/82015545
+ * https://blog.csdn.net/sinat_36264666/article/details/77586964
  */
 
 //图片二值化(图像的二值化就是将图像上的像素点的灰度值设置为0或255，这样将使整个图像呈现出明显的黑白效果)
@@ -35,7 +36,7 @@ public class Threshold {
                 flag=0，该函数返回单通道图像，如果磁盘的图像文件是多通道图像，则会被强制转为单通道；
                 flag<0，则函数不对图像进行通道转换。
          */
-        Mat src = Imgcodecs.imread("C:\\Users\\Administrator\\Desktop\\photo\\opencv1.jpg", Imgcodecs.IMREAD_GRAYSCALE);
+        Mat src = Imgcodecs.imread("C:\\Users\\Administrator\\Desktop\\photo\\xxxx.png", Imgcodecs.IMREAD_GRAYSCALE);
         // 保存灰度
         Imgcodecs.imwrite("C:\\Users\\Administrator\\Desktop\\OpenCVResult\\opencv1Gray.jpg", src);
 
@@ -55,7 +56,7 @@ public class Threshold {
             THRESH_TOZERO_INV:大于阈值部分被置为0，小于部分保持不变 )
          */
         Mat target = new Mat();
-        Imgproc.threshold(src, target, 0, 255, Imgproc.THRESH_TOZERO_INV | Imgproc.THRESH_OTSU);//灰度图像二值化
+        Imgproc.threshold(src, target, 100, 255, Imgproc.THRESH_TOZERO_INV | Imgproc.THRESH_OTSU);//灰度图像二值化
         Imgcodecs.imwrite("C:\\Users\\Administrator\\Desktop\\OpenCVResult\\opencv1Threshold.jpg", target);
 
         // 保存二值化后图片（方法2）

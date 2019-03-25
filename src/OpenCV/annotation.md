@@ -3,22 +3,25 @@
 http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/tutorials.html  
 https://docs.opencv.org/3.4.1/index.html
 
-- 1 OpenCV基础操作 
+- 1 OpenCVFirDemo OpenCV基础操作 
     - 1.1 OpenCVJavaTest：OpenCV图像读入，显示，输出 
-    - 1.2 Threshold：图像的图片二值化(二值化前需要进行灰度化)
-    - 1.3 CvColor：图像灰度化
-- 2 imgproc 模块图像处理(在这一部分你将学习OpenCV中的图像处理函数。) 
+    - 1.2 CrateMat 创建自定义Mat，修改Mat特定位置像素值
+- 2 imgproc 模块图像处理(在这一部分你将学习OpenCV中的图像处理函数) 
     - 2.1 ImageSmoothing(图像平滑处理,学习一些简单的线性滤波器)  
         - 2.1.1 Blur 均值滤波 
         - 2.1.2 GaussianBlur 高斯滤波 
         - 2.1.3 MedianBlur 中值滤波 
+        - 2.1.4 Filter2D 创建自己的线性滤波器
     - 2.2 ErodingAndDilating 腐蚀与膨胀 
         - 2.2.1 Erode 腐蚀 
         - 2.2.2 Dilate 膨胀 
     - 2.3 Resize 图像尺寸调整
         - 2.3.1 Resize 图像尺寸调整
         - 2.3.2 PyrDown 高斯图像金字塔-缩小过程
-        - 2.3.3 PyrUp 高斯图像金字塔-扩大过程
+        - 2.3.3 PyrUp 高斯图像金字塔-扩大过程 
+    - 2.4 Threshold 基本的阈值操作 
+        - 2.4.1 CvColor 灰度化 
+        - 2.4.2 Threshold 二值化
 
 
 

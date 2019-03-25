@@ -1,4 +1,4 @@
-package OpenCV;
+package OpenCV.OpenCVFirDemo;
 
 import org.opencv.core.*;
 import org.opencv.imgcodecs.Imgcodecs;
@@ -39,7 +39,5 @@ public class OpenCVJavaTest{
 
         srcImage.release();
 
-//        Mat mat = Mat.eye(3, 3, CvType.CV_8UC1);
-//        System.out.println("mat = " + mat.dump());
     }
 }

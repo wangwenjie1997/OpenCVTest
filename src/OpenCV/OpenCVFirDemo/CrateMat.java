@@ -7,6 +7,7 @@ import org.opencv.core.Mat;
 /**
  * 参考链接:
  * https://blog.csdn.net/u012343179/article/details/68060880
+ * https://my.oschina.net/drjones/blog/312876
  */
 //创建自定义Mat
 public class CrateMat {

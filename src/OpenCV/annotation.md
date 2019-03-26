@@ -21,7 +21,11 @@ https://docs.opencv.org/3.4.1/index.html
         - 2.3.3 PyrUp 高斯图像金字塔-扩大过程 
     - 2.4 Threshold 基本的阈值操作 
         - 2.4.1 CvColor 灰度化 
-        - 2.4.2 Threshold 二值化
+        - 2.4.2 Threshold 二值化 
+- 3 core OpenCV核心模块 
+    - 3.1 AddWeighted 两幅图像求和 
+    - 3.2 CutImgROI 图形裁剪 
+    - 3.3 CopyTo 利用ROI进行图像叠加
 
 
 

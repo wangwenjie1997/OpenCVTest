@@ -25,7 +25,7 @@ public class CutImgROI {
         Mat dst=new Mat();
         Rect rect = new Rect(100,100,50,50);//x,y坐标起点，宽，高
         Mat imgROI = new Mat(srcImage, rect);
-        imgROI.copyTo(dst);//可以注解掉
+        imgROI.copyTo(dst);
 
         imshow("裁剪前",srcImage);
         imshow("裁剪后",dst);

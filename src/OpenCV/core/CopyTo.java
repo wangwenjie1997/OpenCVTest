@@ -25,7 +25,12 @@ public class CopyTo {
         Mat src2 = Imgcodecs.imread("C:\\Users\\Administrator\\Desktop\\photo\\timg.jpg");
 
         Rect rect = new Rect(100,100,src1.cols(),src1.rows());//x,y坐标，宽，高
+        /**
+         Q：关于获取ROI，融合后对源图像的影响？
+         A：ROI像素的任何转换都会被应用在原始图像中的相应位置中去，因为原始图像和ROI区域共享的是相同的图像数据。因为定义ROI区域是并不复制数据,无论ROI区域的大小，它在一个固定的时间被执行
+         */
         Mat roi_img = new Mat(src2,rect);//(个人理解:roi_img是src2的rect区域的像素点阵，这个像素点阵可以被其他像素点阵替换掉)
+
 
         /**
          copyTo(Mat m, Mat mask)

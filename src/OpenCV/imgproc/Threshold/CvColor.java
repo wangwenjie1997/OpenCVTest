@@ -5,6 +5,11 @@ import org.opencv.core.Mat;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.opencv.core.Core.split;
+
 /**
  * 灰度化，图片二值化定义:
  *http://blog.sina.com.cn/s/blog_13c6397540102wqtt.html
@@ -28,6 +33,8 @@ public class CvColor {
         //灰度化
         /**
          Imgproc.cvtColor(Mat src, Mat dst, int code, int dstCn)
+         功能说明
+            是将一个图像从一个颜色空间转换到另一个颜色空间
          参数说明
              src：输入源图像
              dst：输出的目标图像
@@ -36,7 +43,6 @@ public class CvColor {
          */
         Imgproc.cvtColor(srcImage, dstImage, Imgproc.COLOR_BGR2GRAY,0);
         Imgcodecs.imwrite("C:\\Users\\Administrator\\Desktop\\OpenCVResult\\opencv1Gray.jpg", dstImage);
-
     }
 
 }

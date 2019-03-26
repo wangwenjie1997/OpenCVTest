@@ -59,7 +59,7 @@ public class Threshold {
         Imgproc.threshold(src, target, 100, 255, Imgproc.THRESH_TOZERO_INV | Imgproc.THRESH_OTSU);//灰度图像二值化
         Imgcodecs.imwrite("C:\\Users\\Administrator\\Desktop\\OpenCVResult\\opencv1Threshold.jpg", target);
 
-        // 保存二值化后图片（方法2）
+        // 保存二值化后图片（自适应阈值化）
         /**
         Imgproc.adaptiveThreshold(Mat src, Mat dst, double maxValue, int adaptiveMethod, int thresholdType, intblockSize, double C)
         参数说明：

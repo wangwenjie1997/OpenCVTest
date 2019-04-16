@@ -36,7 +36,7 @@ public class Threshold {
                 flag=0，该函数返回单通道图像，如果磁盘的图像文件是多通道图像，则会被强制转为单通道；
                 flag<0，则函数不对图像进行通道转换。
          */
-        Mat src = Imgcodecs.imread("C:\\Users\\Administrator\\Desktop\\photo\\xxxx.png", Imgcodecs.IMREAD_GRAYSCALE);
+        Mat src = Imgcodecs.imread("C:\\Users\\Administrator\\Desktop\\photo\\opencv1.jpg", Imgcodecs.IMREAD_GRAYSCALE);
         // 保存灰度
         Imgcodecs.imwrite("C:\\Users\\Administrator\\Desktop\\OpenCVResult\\opencv1Gray.jpg", src);
 

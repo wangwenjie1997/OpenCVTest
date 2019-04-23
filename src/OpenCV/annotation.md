@@ -2,7 +2,9 @@
 链接: 
 http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/tutorials.html  
 https://docs.opencv.org/3.4.1/index.html 
-https://blog.csdn.net/sinat_36264666 CSDN拜小白OpenCV教程
+https://blog.csdn.net/sinat_36264666 CSDN拜小白OpenCV教程 
+源码学习:https://github.com/liuqi0725/OpenCV3-Study-JAVA 
+https://opencv-java-tutorials.readthedocs.io/en/latest/
 
 - 1 OpenCVFirDemo OpenCV基础操作 
     - 1.1 OpenCVJavaTest：OpenCV图像读入，显示，输出 
@@ -22,12 +24,16 @@ https://blog.csdn.net/sinat_36264666 CSDN拜小白OpenCV教程
         - 2.3.3 PyrUp 高斯图像金字塔-扩大过程 
     - 2.4 Threshold 基本的阈值操作 
         - 2.4.1 CvColor 是将一个图像从一个颜色空间转换到另一个颜色空间 
-        - 2.4.2 Threshold 二值化 
+        - 2.4.2 Threshold 二值化  
+    -2.5 FloodFill 洪水填充 
+    -2.6 MatchTemplate 特征匹配 
+    -2.7 Canny
 - 3 core OpenCV核心模块 
     - 3.1 AddWeighted 两幅图像求和 
     - 3.2 CutImgROI 图形裁剪 
     - 3.3 CopyTo 利用ROI进行图像叠加
-    - 3.4 SplitAndMerge 通道混合与分离
+    - 3.4 SplitAndMerge 通道混合与分离 
+    - 3.5 InRange颜色分割(获取图片平均亮度)
 
 
 

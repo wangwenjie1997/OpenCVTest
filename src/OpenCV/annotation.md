@@ -8,7 +8,8 @@ https://opencv-java-tutorials.readthedocs.io/en/latest/
 
 - 1 OpenCVFirDemo OpenCV基础操作 
     - 1.1 OpenCVJavaTest：OpenCV图像读入，显示，输出 
-    - 1.2 CrateMat 创建自定义Mat，修改Mat特定位置像素值
+    - 1.2 CrateMat 创建自定义Mat，修改Mat特定位置像素值 
+    - 1.3 UnevenLightCompensate光照补偿
 - 2 imgproc 模块图像处理(在这一部分你将学习OpenCV中的图像处理函数) 
     - 2.1 ImageSmoothing(图像平滑处理,学习一些简单的线性滤波器)  
         - 2.1.1 Blur 均值滤波 
@@ -33,7 +34,11 @@ https://opencv-java-tutorials.readthedocs.io/en/latest/
     - 3.2 CutImgROI 图形裁剪 
     - 3.3 CopyTo 利用ROI进行图像叠加
     - 3.4 SplitAndMerge 通道混合与分离 
-    - 3.5 InRange颜色分割(获取图片平均亮度)
+    - 3.5 InRange颜色分割(获取图片平均亮度) 
+    
+    
+开运算：先腐蚀后膨胀-->去除孤立小点、毛刺、小桥而总的位置形状不变 
+闭运算：先膨胀后腐蚀-->填充物体影像内细小空洞，连接邻近物体和平滑边界
 
 
 

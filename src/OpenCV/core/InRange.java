@@ -24,12 +24,12 @@ public class InRange {
         /**
          * 获取图片平均亮度
          */
-        /*
-        Mat gray=new Mat();
-        Imgproc.cvtColor(src, gray, Imgproc.COLOR_BGR2GRAY);
-        Scalar scalar=Core.mean(gray);
-        System.out.println(scalar.val[0]);
-         */
+
+//        Mat gray=new Mat();
+//        Imgproc.cvtColor(src, gray, Imgproc.COLOR_BGR2GRAY);
+//        Scalar scalar=Core.mean(gray);
+//        System.out.println(scalar.val[0]);
+
         //修改亮度对比度
         //-1表示与原图类型一致，alpha对比度，beta亮度
         src.convertTo(src, -1, 1, 50);

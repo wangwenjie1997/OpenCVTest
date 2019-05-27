@@ -19,6 +19,7 @@ import static org.opencv.highgui.HighGui.waitKey;
  * 参考链接:
  * https://blog.csdn.net/sinat_36264666/article/details/76933106
  * https://blog.csdn.net/sinat_36264666/article/details/77413165
+ * https://blog.csdn.net/u013195275/article/details/79867781
  */
 //通道混合与分离
 public class SplitAndMerge {
